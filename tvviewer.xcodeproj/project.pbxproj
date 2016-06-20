@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C737091D18241D00177267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C737081D18241D00177267 /* AppDelegate.swift */; };
+		20C7370B1D18241D00177267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C7370A1D18241D00177267 /* ViewController.swift */; };
+		20C7370E1D18241D00177267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C7370C1D18241D00177267 /* Main.storyboard */; };
+		20C737101D18241D00177267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C7370F1D18241D00177267 /* Assets.xcassets */; };
+		20C737131D18241D00177267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C737111D18241D00177267 /* LaunchScreen.storyboard */; };
+		20C7371E1D18241D00177267 /* tvviewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C7371D1D18241D00177267 /* tvviewerTests.swift */; };
+		20C737291D18241D00177267 /* tvviewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C737281D18241D00177267 /* tvviewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C7371A1D18241D00177267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C736FD1D18241D00177267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C737041D18241D00177267;
+			remoteInfo = tvviewer;
+		};
+		20C737251D18241D00177267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C736FD1D18241D00177267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C737041D18241D00177267;
+			remoteInfo = tvviewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20C737051D18241D00177267 /* tvviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C737081D18241D00177267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20C7370A1D18241D00177267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20C7370D1D18241D00177267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C7370F1D18241D00177267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C737121D18241D00177267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C737141D18241D00177267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C737191D18241D00177267 /* tvviewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvviewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C7371D1D18241D00177267 /* tvviewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvviewerTests.swift; sourceTree = "<group>"; };
+		20C7371F1D18241D00177267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C737241D18241D00177267 /* tvviewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvviewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C737281D18241D00177267 /* tvviewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvviewerUITests.swift; sourceTree = "<group>"; };
+		20C7372A1D18241D00177267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C737021D18241D00177267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C737161D18241D00177267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C737211D18241D00177267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C736FC1D18241D00177267 = {
+			isa = PBXGroup;
+			children = (
+				20C737071D18241D00177267 /* tvviewer */,
+				20C7371C1D18241D00177267 /* tvviewerTests */,
+				20C737271D18241D00177267 /* tvviewerUITests */,
+				20C737061D18241D00177267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C737061D18241D00177267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C737051D18241D00177267 /* tvviewer.app */,
+				20C737191D18241D00177267 /* tvviewerTests.xctest */,
+				20C737241D18241D00177267 /* tvviewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C737071D18241D00177267 /* tvviewer */ = {
+			isa = PBXGroup;
+			children = (
+				20C737081D18241D00177267 /* AppDelegate.swift */,
+				20C7370A1D18241D00177267 /* ViewController.swift */,
+				20C7370C1D18241D00177267 /* Main.storyboard */,
+				20C7370F1D18241D00177267 /* Assets.xcassets */,
+				20C737111D18241D00177267 /* LaunchScreen.storyboard */,
+				20C737141D18241D00177267 /* Info.plist */,
+			);
+			path = tvviewer;
+			sourceTree = "<group>";
+		};
+		20C7371C1D18241D00177267 /* tvviewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				20C7371D1D18241D00177267 /* tvviewerTests.swift */,
+				20C7371F1D18241D00177267 /* Info.plist */,
+			);
+			path = tvviewerTests;
+			sourceTree = "<group>";
+		};
+		20C737271D18241D00177267 /* tvviewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20C737281D18241D00177267 /* tvviewerUITests.swift */,
+				20C7372A1D18241D00177267 /* Info.plist */,
+			);
+			path = tvviewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C737041D18241D00177267 /* tvviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C7372D1D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewer" */;
+			buildPhases = (
+				20C737011D18241D00177267 /* Sources */,
+				20C737021D18241D00177267 /* Frameworks */,
+				20C737031D18241D00177267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvviewer;
+			productName = tvviewer;
+			productReference = 20C737051D18241D00177267 /* tvviewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C737181D18241D00177267 /* tvviewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C737301D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewerTests" */;
+			buildPhases = (
+				20C737151D18241D00177267 /* Sources */,
+				20C737161D18241D00177267 /* Frameworks */,
+				20C737171D18241D00177267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C7371B1D18241D00177267 /* PBXTargetDependency */,
+			);
+			name = tvviewerTests;
+			productName = tvviewerTests;
+			productReference = 20C737191D18241D00177267 /* tvviewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20C737231D18241D00177267 /* tvviewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C737331D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewerUITests" */;
+			buildPhases = (
+				20C737201D18241D00177267 /* Sources */,
+				20C737211D18241D00177267 /* Frameworks */,
+				20C737221D18241D00177267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C737261D18241D00177267 /* PBXTargetDependency */,
+			);
+			name = tvviewerUITests;
+			productName = tvviewerUITests;
+			productReference = 20C737241D18241D00177267 /* tvviewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C736FD1D18241D00177267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = brucewzp;
+				TargetAttributes = {
+					20C737041D18241D00177267 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					20C737181D18241D00177267 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 20C737041D18241D00177267;
+					};
+					20C737231D18241D00177267 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 20C737041D18241D00177267;
+					};
+				};
+			};
+			buildConfigurationList = 20C737001D18241D00177267 /* Build configuration list for PBXProject "tvviewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C736FC1D18241D00177267;
+			productRefGroup = 20C737061D18241D00177267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C737041D18241D00177267 /* tvviewer */,
+				20C737181D18241D00177267 /* tvviewerTests */,
+				20C737231D18241D00177267 /* tvviewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C737031D18241D00177267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C737131D18241D00177267 /* LaunchScreen.storyboard in Resources */,
+				20C737101D18241D00177267 /* Assets.xcassets in Resources */,
+				20C7370E1D18241D00177267 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C737171D18241D00177267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C737221D18241D00177267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C737011D18241D00177267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C7370B1D18241D00177267 /* ViewController.swift in Sources */,
+				20C737091D18241D00177267 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C737151D18241D00177267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C7371E1D18241D00177267 /* tvviewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C737201D18241D00177267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C737291D18241D00177267 /* tvviewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C7371B1D18241D00177267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C737041D18241D00177267 /* tvviewer */;
+			targetProxy = 20C7371A1D18241D00177267 /* PBXContainerItemProxy */;
+		};
+		20C737261D18241D00177267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C737041D18241D00177267 /* tvviewer */;
+			targetProxy = 20C737251D18241D00177267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20C7370C1D18241D00177267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C7370D1D18241D00177267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C737111D18241D00177267 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C737121D18241D00177267 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C7372B1D18241D00177267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20C7372C1D18241D00177267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C7372E1D18241D00177267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tvviewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20C7372F1D18241D00177267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tvviewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20C737311D18241D00177267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tvviewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvviewer.app/tvviewer";
+			};
+			name = Debug;
+		};
+		20C737321D18241D00177267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tvviewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvviewer.app/tvviewer";
+			};
+			name = Release;
+		};
+		20C737341D18241D00177267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tvviewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tvviewer;
+			};
+			name = Debug;
+		};
+		20C737351D18241D00177267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tvviewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tvviewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C737001D18241D00177267 /* Build configuration list for PBXProject "tvviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C7372B1D18241D00177267 /* Debug */,
+				20C7372C1D18241D00177267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C7372D1D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C7372E1D18241D00177267 /* Debug */,
+				20C7372F1D18241D00177267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C737301D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C737311D18241D00177267 /* Debug */,
+				20C737321D18241D00177267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C737331D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C737341D18241D00177267 /* Debug */,
+				20C737351D18241D00177267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C736FD1D18241D00177267 /* Project object */;
+}
