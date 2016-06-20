@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					20C737041D18241D00177267 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8N5DU9B6JB;
 					};
 					20C737181D18241D00177267 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,10 +400,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tvviewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tvviewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brucewzp.tvviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +489,7 @@
 				20C7372F1D18241D00177267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C737301D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				20C737321D18241D00177267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C737331D18241D00177267 /* Build configuration list for PBXNativeTarget "tvviewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				20C737351D18241D00177267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
