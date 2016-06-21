@@ -7,34 +7,45 @@
 //
 
 import UIKit
-import MediaPlayer
 
-class ViewController: UIViewController {
-    var moviePlayer : MPMoviePlayerController!
 
+class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
+    var items: [String] = ["Viper", "X", "Games"]
+    var tableView: UITableView  =   UITableView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let path = "http://61.189.255.152/live.aishang.ctlcdn.com/00000110240127_1/encoder/0/playlist.m3u8"
-        let url = NSURL(string:path)
-        self.moviePlayer = MPMoviePlayerController(contentURL: url)
-        if let player = self.moviePlayer {
-            player.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
-            player.view.sizeToFit()
-            player.scalingMode = MPMovieScalingMode.Fill
-            player.fullscreen = true
-            player.controlStyle = MPMovieControlStyle.None
-            player.movieSourceType = MPMovieSourceType.File
-            player.repeatMode = MPMovieRepeatMode.One
-            player.play()
-            self.view.addSubview(player.view)
-        }}
+        
+        tableView.frame         =   CGRectMake(0, 50, 320, 200);
+        tableView.delegate      =   self
+        tableView.dataSource    =   self
+        
+        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        
+        self.view.addSubview(tableView)
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.items.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell")! as UITableViewCell
+        
+        cell.textLabel?.text = self.items[indexPath.row]
+        
+        return cell
+        
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("You selected cell #\(indexPath.row)!")
+        //实例化一个登陆界面
+        let p = PlayerViewController()
+        //从下弹出一个界面作为登陆界面，completion作为闭包，可以写一些弹出loginView时的一些操作
+        self.presentViewController(p, animated: true, completion: nil)
 
-
+    }
 }
-
