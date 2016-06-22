@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		208BE9A51D18D5EC003B4A1E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208BE9A41D18D5EC003B4A1E /* PlayerViewController.swift */; };
 		208BE9A71D18D705003B4A1E /* SourceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208BE9A61D18D705003B4A1E /* SourceConfig.swift */; };
-		208BE9A91D18D870003B4A1E /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208BE9A81D18D870003B4A1E /* MyCustomCell.swift */; };
 		20C737091D18241D00177267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C737081D18241D00177267 /* AppDelegate.swift */; };
 		20C7370B1D18241D00177267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C7370A1D18241D00177267 /* ViewController.swift */; };
 		20C7370E1D18241D00177267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C7370C1D18241D00177267 /* Main.storyboard */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		208BE9A41D18D5EC003B4A1E /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		208BE9A61D18D705003B4A1E /* SourceConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceConfig.swift; sourceTree = "<group>"; };
-		208BE9A81D18D870003B4A1E /* MyCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		20C737051D18241D00177267 /* tvviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C737081D18241D00177267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20C7370A1D18241D00177267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				20C737141D18241D00177267 /* Info.plist */,
 				208BE9A41D18D5EC003B4A1E /* PlayerViewController.swift */,
 				208BE9A61D18D705003B4A1E /* SourceConfig.swift */,
-				208BE9A81D18D870003B4A1E /* MyCustomCell.swift */,
 			);
 			path = tvviewer;
 			sourceTree = "<group>";
@@ -267,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				208BE9A71D18D705003B4A1E /* SourceConfig.swift in Sources */,
-				208BE9A91D18D870003B4A1E /* MyCustomCell.swift in Sources */,
 				20C7370B1D18241D00177267 /* ViewController.swift in Sources */,
 				20C737091D18241D00177267 /* AppDelegate.swift in Sources */,
 				208BE9A51D18D5EC003B4A1E /* PlayerViewController.swift in Sources */,

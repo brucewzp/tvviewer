@@ -10,20 +10,15 @@ import UIKit
 
 
 class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
-    var items: [String] = ["Viper", "X", "Games"]
+    var items = SourceConfig.sources
     var tableView: UITableView  =   UITableView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tableView.frame         =   CGRectMake(0, 50, 320, 200);
+        tableView.frame         =   self.view.frame
         tableView.delegate      =   self
         tableView.dataSource    =   self
-        
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        
         self.view.addSubview(tableView)
-
-
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -34,17 +29,15 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         
         let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell")! as UITableViewCell
         
-        cell.textLabel?.text = self.items[indexPath.row]
+        cell.textLabel?.text = Array(self.items.keys).sort()[indexPath.row]
         
         return cell
         
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("You selected cell #\(indexPath.row)!")
-        //实例化一个登陆界面
         let p = PlayerViewController()
-        //从下弹出一个界面作为登陆界面，completion作为闭包，可以写一些弹出loginView时的一些操作
+        p.urlStr = Array(self.items.values)[indexPath.row]
         self.presentViewController(p, animated: true, completion: nil)
 
     }

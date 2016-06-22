@@ -11,10 +11,11 @@ import MediaPlayer
 import AVKit
 
 class PlayerViewController: UIViewController {
+    var urlStr = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = NSURL(string:"http://61.189.255.152/live.aishang.ctlcdn.com/00000110240127_1/encoder/0/playlist.m3u8")
+        let url = NSURL(string:urlStr)
         let player = AVPlayer(URL: url!)
         let playerController = AVPlayerViewController()
         
