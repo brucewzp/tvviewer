@@ -37,7 +37,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="showDetail" id="FUo-ir-6hX"/>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="playerSeg" id="FUo-ir-6hX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TRj-y4-pfR" userLabel="First Responder" sceneMemberID="firstResponder"/>

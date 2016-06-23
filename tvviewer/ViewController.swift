@@ -11,9 +11,14 @@ import UIKit
 
 class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
     var items = SourceConfig.sources
+    var keys:[String] = []
     var tableView: UITableView  =   UITableView()
     override func viewDidLoad() {
-        super.viewDidLoad()
+        for k in items.keys{
+            keys.append(k)
+        }
+        keys.sortInPlace()
+ 
         tableView.frame         =   self.view.frame
         tableView.delegate      =   self
         tableView.dataSource    =   self
@@ -29,16 +34,18 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         
         let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell")! as UITableViewCell
         
-        cell.textLabel?.text = Array(self.items.keys).sort()[indexPath.row]
-        
+//        cell.textLabel?.text = Array(self.items.keys)[indexPath.row]
+        cell.textLabel?.text = keys[indexPath.row]
         return cell
         
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let p = PlayerViewController()
-        p.urlStr = Array(self.items.values)[indexPath.row]
+//        p.urlStr = Array(self.items.values)[indexPath.row]
+        p.urlStr = items[keys[indexPath.row]]!
         self.presentViewController(p, animated: true, completion: nil)
 
     }
+
 }
