@@ -33,19 +33,16 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell")! as UITableViewCell
-        
-//        cell.textLabel?.text = Array(self.items.keys)[indexPath.row]
         cell.textLabel?.text = keys[indexPath.row]
+        
         return cell
         
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let p = PlayerViewController()
-//        p.urlStr = Array(self.items.values)[indexPath.row]
         p.urlStr = items[keys[indexPath.row]]!
         self.presentViewController(p, animated: true, completion: nil)
-
     }
 
 }
